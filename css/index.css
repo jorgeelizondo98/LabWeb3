@@ -11,3 +11,39 @@ body {
 .logo > img {
   width: 50px;
 }
+
+@media (max-width: 767px) {
+
+	.logo {
+		text-align: center;
+		margin: 5px;
+	}
+
+	header > h1 {
+		text-align: center;
+	}
+
+	.menu {
+    	font-size: 0;
+  	}
+
+	.hamburger {
+		color: white;
+		background-color: dimgray;
+		display: flex;
+		justify-content: flex-end;
+		padding-right: 5px
+	}
+
+	.product {
+		border: 1px solid lightgray;
+		border-radius: 5px;
+		padding: 8px;
+		display: flex;
+		flex-direction: column;
+  		align-items: center;
+  		margin: 5px
+    }
+
+
+}
