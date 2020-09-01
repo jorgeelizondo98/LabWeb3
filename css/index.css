@@ -45,5 +45,57 @@ body {
   		margin: 5px
     }
 
+    .social {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    	list-style: none;
+    }
 
+}
+
+@media (min-width: 768px) {
+
+	header {
+		display: flex;
+		flex-direction: row;
+		margin-top: 2%;
+	}
+
+	.logo {
+		margin-left: 10%;
+	}
+
+	header > h1 {
+		text-align: center;
+		margin-left: 20%
+	}
+
+	.menu {
+    	font-size: 0;
+  	}
+
+	.hamburger {
+		color: white;
+		background-color: gray;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.product {
+		border: 1px solid dimgray;
+		border-radius: 5px;
+		padding: 8px;
+		display: flex;
+		flex-direction: column;
+  		align-items: center;
+  		margin: 5% ;
+    }
+
+    .social {
+    	display: flex;
+    	flex-direction: row;
+    	justify-content: space-around;
+    	list-style: none;
+    }
 }
